@@ -1,0 +1,543 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+a img {
+	border: none
+}
+#main {
+	width: 100%
+}
+.aut_image {
+	background: url(images/aut_logo.jpeg) no-repeat;
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+#top {
+	width: 100%;
+	height: 406px;
+	background: url(images/top-bg.png) repeat-x top center
+}
+#top .logo-menu-banner {
+	width: 998px;
+	height: auto;
+	margin: 0 auto
+}
+#top .logo-menu-banner .logo-main {
+	width: 100%;
+	height: 193px;
+	float: left;
+}
+#top .logo-menu-banner .logo-main .logo {
+	width: 230px;
+	height: auto;
+	float: left;
+	margin: 16px 0 0 8px;
+	padding-bottom: 23px
+}
+.form-button {
+	background: url(images/cal.jpg) no-repeat right;
+	border: none;
+	width: 22px;
+	height: 22px;
+	float: left;
+	padding-left: 2px
+}
+#top .logo-menu-banner .logo-main .right-panel {
+	width: 415px;
+	float: left;
+	height: auto;
+	margin-left: 300px
+}
+#top .logo-menu-banner .logo-main .right-panel .icons {
+	width: 500px;
+	height: auto;
+	float: left;
+	margin-top: 10px
+}
+#top .logo-menu-banner .logo-main .right-panel .icons .icon-div {
+	width: 300px;
+	height: auto;
+	float: left
+}
+#top .logo-menu-banner .logo-main .right-panel .icons .links-div {
+	width: 180px;
+	height: 36px;
+	float: left;
+	background: url(images/top-link-bg.png) no-repeat
+}
+#top .logo-menu-banner .logo-main .right-panel .icons .links-div .links {
+	margin: 2px 0 0 28px;
+}
+#top .logo-menu-banner .logo-main .right-panel .icons .links-div .links a {
+	text-decoration: none;
+	color: black;
+	font-size: 11px;
+}
+#top .logo-menu-banner .logo-main .right-panel .icons .links-div .links a:link {
+	text-decoration: none;
+	color: black;
+}
+#top .logo-menu-banner .logo-main .right-panel .icons .links-div .links a:hover {
+	text-decoration: none;
+	color: red;
+}
+#top .logo-menu-banner .logo-main .right-panel .phone {
+	width: 315px;
+	height: auto;
+	float: left;
+	margin-top: 40px;
+	font-size: 40px;
+	color: #848484;
+	font-weight: bold;
+	text-align: center
+}
+#top .logo-menu-banner .menus {
+	width: 100%;
+	height: 46px;
+	float: left;
+	background: url(images/menu-main-bg.png) no-repeat
+}
+#top .logo-menu-banner .menus ul {
+	margin: 0;
+	padding: 0;
+}
+#top .logo-menu-banner .menus li {
+	list-style: none;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 30px 0 30px;
+	border-right: 1px solid #cbcbcb;
+	height: 46px;
+	line-height: 45px
+}
+#top .logo-menu-banner .menus li a {
+	font-family: "Myriad Pro", Arial;
+	font-size: 14px;
+	color: #000;
+	text-decoration: non;
+	cursor: pointer
+}
+#top .logo-menu-banner .menus li a:link {
+	color: #000;
+	text-decoration: none
+}
+#top .logo-menu-banner .menus li a:hover {
+	color: #000;
+	text-decoration: none
+}
+#top .logo-menu-banner .menus li:hover {
+	background: url(images/menu-hover-x.png) repeat-x center bottom;
+}
+#top .logo-menu-banner .Banner {
+	width: 100%;
+	height: 214px;
+	float: left;
+	margin-top: -2px
+}
+#Body-main {
+	width: 100%;
+	background: #fffae4;
+	float: left
+}
+#Body-main .content {
+	width: 998px;
+	margin: 0 auto;
+}
+#Body-main .content .content-text {
+	width: 998px;
+	float: left;
+	height: auto;
+	margin-top: 10px;
+}
+#Body-main .content .content-text .indexpage {
+	width: 998px;
+	float: left;
+	height: auto;
+	margin-top: 10px;
+}
+#Body-main .content .content-text .Left {
+	width: 485px;
+	height: auto;
+	float: left
+}
+#Body-main .content .content-text .Left .features {
+	width: 485px;
+	height: auto;
+	float: left
+}
+#Body-main .content .content-text .Left .features ul {
+	margin: 0;
+	padding: 0;
+}
+#Body-main .content .content-text .Left .features li {
+	list-style-image: url(images/arrow.png);
+	list-style-position: inside;
+	margin-top: 15px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 15px;
+	float: left;
+}
+#Body-main .content .content-text .index-contents {
+	width: 660px;
+	height: auto;
+	float: left
+}
+#Body-main .content .content-text .index-contents ul {
+	margin: 0;
+	padding: 0
+}
+#Body-main .content .content-text .index-contents li {
+	/*list-style-image:url(images/bell-logo.png);
+
+	list-style-position: inside bottom;*/
+
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	float: left;
+}
+#Body-main .content .content-text .learn-more {
+	width: 280px;
+	height: auto;
+	background-color: #fff;
+	padding: 10px;
+	float: left;
+	margin: 0 25px 25px 0;
+	border: 1px dotted #ccc;
+}
+#Body-main .content .content-text .learn-more img {
+	float: left;
+	margin: 0 8px 0 0;
+	height: 30px;
+	vertical-align: top
+}
+#Body-main .content .content-text .learn-more a {
+	color: #333333;
+	text-decoration: none;
+}
+#Body-main .content .content-text .learn-more a:hover {
+	text-decoration: underline
+}
+#Body-main .content .content-text .index-contents li img {
+	float: left;
+	margin: 0 8px 0 8px;
+	height: 30px;
+}
+#Body-main .content .content-text .index-contents a {
+	color: #333333;
+	text-decoration: underline
+}
+#Body-main .content .content-text .index-contents a:hover {
+	text-decoration: none;
+}
+#Body-main .content .content-text .Left .features span {
+	padding-left: 15px;
+	line-height: 60px
+}
+#Body-main .content .content-text .Left .features span a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000;
+}
+#Body-main .content .content-text .Left .features span a:link {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000;
+}
+#Body-main .content .content-text .Left .features span a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+#Body-main .content .content-text .Left .title {
+	font-family: "Myriad Pro", Arial;
+	font-size: 23px;
+	color: #000;
+	font-weight: bold
+}
+.title {
+	font-family: "Myriad Pro", Arial;
+	font-size: 23px;
+	color: #000;
+	font-weight: bold
+}
+#Body-main .content .content-text .Right {
+	width: 300px;
+	float: left;
+	height: auto;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+#footer-main {
+	width: 100%;
+	height: 181px;
+	background: url(images/foot-bg.png) repeat-x top center;
+	clear: both
+}
+#footer-main .footer {
+	width: 998px;
+	height: 181px;
+	margin: 0 auto
+}
+#footer-main .footer .left-footer {
+	width: 653px;
+	height: auto;
+	float: left;
+	margin-top: 35px;
+	background: url(images/foot-sep.png) top right no-repeat
+}
+#footer-main .footer .left-footer ul {
+	margin: 0;
+	padding: 0
+}
+#footer-main .footer .left-footer li {
+	list-style: none;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 7px 0 7px;
+	border-right: 1px solid #414141;
+	line-height: 15px
+}
+#footer-main .footer .left-footer li a {
+	color: #414141;
+	text-decoration: none;
+}
+#footer-main .footer .left-footer li a:link {
+	color: #414141;
+	text-decoration: none;
+}
+#footer-main .footer .left-footer li a:hover {
+	color: #414141;
+	text-decoration: underline;
+}
+#footer-main .footer .left-footer span {
+	width: 653px;
+	height: auto;
+	float: left;
+	text-align: center;
+	color: #989898;
+	line-height: 100px
+}
+#footer-main .footer .right-footer {
+	width: 333px;
+	float: right;
+	height: auto;
+	margin-top: 35px;
+}
+#footer-main .footer .right-footer ul {
+	margin: 0;
+	padding: 0
+}
+#footer-main .footer .right-footer li {
+	list-style-image: url(images/mail.png);
+	margin-left: 35px;
+	line-height: 20px;
+	color: #757575;
+	font-weight: bold
+}
+#footer-main .footer .right-footer li a {
+	color: #424242;
+	text-decoration: underline;
+	font-weight: normal
+}
+#footer-main .footer .right-footer li a:link {
+	color: #424242;
+	text-decoration: underline;
+}
+#footer-main .footer .right-footer li a:hover {
+	color: #424242;
+	text-decoration: none;
+}
+.submit-bg {
+	background: url(images/btn-bg.png) repeat-x bottom;
+	height: 25px;
+	padding: 0 10px 0 10px;
+	border: 1px solid #f7a34a;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold
+}
+.login-left {
+	width: 500px;
+	height: auto;
+	float: left;
+	padding-bottom: 20px;
+}
+.login-left .m-title {
+	font-family: "Myriad Pro", Arial;
+	font-size: 23px;
+	color: #000;
+}
+.login-left .m-title span {
+	padding-top: 5px;
+	float: left
+}
+.login-left .m-title span input {
+	width: 350px;
+	height: 25px;
+}
+.login-left a {
+	color: #0000ee;
+	text-decoration: underline
+}
+.login-left a:hover {
+	color: #fd7903;
+	text-decoration: none
+}
+.pass-remember {
+	font-size: 13px;
+}
+.login-right {
+	width: 400px;
+	height: auto;
+	float: left;
+}
+.title span {
+	font-size: 13px;
+	font-family: Arial;
+	color: #5c5c5c;
+	line-height: 35px;
+}
+.login-submit {
+	width: 150px;
+	height: auto;
+	float: left
+}
+.login-submit input[type=submit] {
+	background: url(images/btn-bg.png) repeat-x bottom;
+	height: 25px;
+	padding: 0 10px 0 10px;
+	border: 1px solid #f7a34a;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold
+}
+.login-submit input[type=button] {
+	background: url(images/btn-bg.png) repeat-x bottom;
+	height: 25px;
+	padding: 0 10px 0 10px;
+	border: 1px solid #f7a34a;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold
+}
+.right-bg {
+	margin: 10px;
+	width: 350px;
+	height: 150px;
+	float: left;
+	background-color: #feead4;
+	border: 5px solid #ffcb92;
+}
+.right-bg:hover {
+	margin: 10px;
+	width: 350px;
+	height: 150px;
+	float: left;
+	background-color: #fefbd4;
+	border: 5px solid #ffcb92;
+	cursor: pointer
+}
+.color01 {
+	color: #c73924;
+	font-size: 18px;
+}
+.color02 {
+	color: #5ba41b;
+	font-size: 18px;
+}
+.span-margin {
+	padding: 8px 0 10px 0px;
+	float: left;
+	text-align: center;
+	width: 320px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 15px;
+}
+input.text {
+	border: 1px solid #bfbab4;
+	margin: 0 4px 8px 0;
+	padding: 6px;
+	color: #1e1e1e;
+	box-shadow: inset 0px 5px 5px #eee;
+}
+.username, .form-text, .form-submit {
+	float: left;
+	border: #000000 1px solid;
+	padding: 5px;
+   -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.form-text {
+	float: left;
+	border: #000000 1px solid;
+	padding: 5px;
+}
+.form-submit, #edit-submit {
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+#user-register-form {
+	float: left;
+	width: 100%;
+}
+#user-login, #user-pass {
+	float: left;
+	padding: 10px 0;
+	width: 100%;
+}
+#user-register-form .description {
+	float: left;
+	width: 100%;
+}
+#ms_membership_fieldset {
+	float: left;
+}
+.content {
+	padding: 10px 0;
+}
+#user-pass label {
+	float: left;
+	width: 100%;
+}
+#edit-account .form-item {
+	margin-top: 0;
+}
+.tabs ul li
+{
+	margin:0;
+}
+.form-item, .form-actions
+{
+	float:left;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+#block-system-main h2
+{
+	float:left;
+	margin:0;
+}
+#user-login-form, #block-user-login, #block-system-main
+{
+	float:left;
+}
+#node-1 .content
+{
+	float:left;
+	padding:0;
+	margin:0;
+}
